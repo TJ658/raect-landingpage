@@ -7,7 +7,7 @@ import Shopify from "../../img/Shopify.png";
 import Facebook from "../../img/Facebook.png";
 import { themeContext } from "../../Context";
 import { motion } from "framer-motion";
-import {Link} from 'react-scroll'
+import { Link } from "react-scroll";
 const Works = () => {
   // context
   const theme = useContext(themeContext);
@@ -20,10 +20,8 @@ const Works = () => {
       <div className="w-left">
         <div className="awesome">
           {/* dark Mode */}
-          <span style={{ color: darkMode ? "white" : "" }}>
-            Works for All these
-          </span>
-          <span>Brands & Clients</span>
+          <span style={{ color: darkMode ? "white" : "" }}>Sympo</span>
+          <span>Workshops & Events</span>
           <spane>
             Lorem ispum is simpley dummy text of printing of printing Lorem
             <br />
@@ -35,7 +33,7 @@ const Works = () => {
             ispum is simpley dummy text of printing
           </spane>
           <Link to="contact" smooth={true} spy={true}>
-            <button className="button s-button">Hire Me</button>
+            <button className="button s-button">Register</button>
           </Link>
           <div
             className="blur s-blur1"
@@ -54,19 +52,19 @@ const Works = () => {
           className="w-mainCircle"
         >
           <div className="w-secCircle">
-            <img src={Upwork} alt="" />
+            {/* <img src={Upwork} alt="" /> */}Image 1
           </div>
           <div className="w-secCircle">
-            <img src={Fiverr} alt="" />
+            {/* <img src={Fiverr} alt="" /> */}Image 2
           </div>
           <div className="w-secCircle">
-            <img src={Amazon} alt="" />
+            {/* <img src={Amazon} alt="" /> */}Sona Img
           </div>{" "}
           <div className="w-secCircle">
-            <img src={Shopify} alt="" />
+            {/* <img src={Shopify} alt="" /> */}Image 3
           </div>
           <div className="w-secCircle">
-            <img src={Facebook} alt="" />
+            {/* <img src={Facebook} alt="" /> */}Image 4
           </div>
         </motion.div>
         {/* background Circles */}

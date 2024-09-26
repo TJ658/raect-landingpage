@@ -1,6 +1,6 @@
 import React, { useContext } from "react";
 import "./Portfolio.css";
-import { Swiper, SwiperSlide } from "swiper/react"
+import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import Sidebar from "../../img/sidebar.png";
 import Ecommerce from "../../img/ecommerce.png";
@@ -13,8 +13,8 @@ const Portfolio = () => {
   return (
     <div className="portfolio" id="portfolio">
       {/* heading */}
-      <span style={{color: darkMode?'white': ''}}>Recent Projects</span>
-      <span>Portfolio</span>
+      <span style={{ color: darkMode ? "white" : "" }}>ThrowBacks</span>
+      <span>Threads</span>
 
       {/* slider */}
       <Swiper
@@ -24,17 +24,15 @@ const Portfolio = () => {
         className="portfolio-slider"
       >
         <SwiperSlide>
-          <img src={Sidebar} alt="" />
+          {/* <img src={Sidebar} alt="" /> */}ThrowBack 1
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt="" />
+          {/* <img src={Ecommerce} alt="" />*/}ThrowBack 2
         </SwiperSlide>
         <SwiperSlide>
-          <img src={MusicApp} alt="" />
+          {/* <img src={MusicApp} alt="" /> */}ThrowBack 3
         </SwiperSlide>
-        <SwiperSlide>
-          <img src={HOC} alt="" />
-        </SwiperSlide>
+        <SwiperSlide>{/* <img src={HOC} alt="" /> */}ThrowBack 4</SwiperSlide>
       </Swiper>
     </div>
   );
